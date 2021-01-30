@@ -1,0 +1,20 @@
+#!/bin/bash
+# Author: David Cohn
+# Date Created: 30/01/2021
+# Description: This script will output "Hello World" on the screen
+# Date Modified: 30/01/2021
+echo
+echo this script will run a few basic tasks
+echo
+pwd
+echo
+ls
+echo
+whoami
+echo
+date
+echo
+cal
+echo
+touch a b c
+echo End of script
