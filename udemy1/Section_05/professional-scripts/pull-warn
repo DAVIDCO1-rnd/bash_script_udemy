@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Description: This script will pull only Error messages from /var/log/messages (syslog?)
+
+grep -i warn ~/Developments/bash_script_udemy/udemy1/Section_05/professional-scripts/messages

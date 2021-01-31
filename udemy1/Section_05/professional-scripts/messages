@@ -1,0 +1,932 @@
+Jan 30 00:00:17 dell-Latitude-E6430 systemd[1]: logrotate.service: Succeeded.
+Jan 30 00:00:17 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:00:17 dell-Latitude-E6430 systemd[1]: Finished Rotate log files.
+Jan 30 00:00:17 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:00:17 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:00:17 dell-Latitude-E6430 systemd[1]: man-db.service: Succeeded.
+Jan 30 00:00:17 dell-Latitude-E6430 systemd[1]: Finished Daily man-db regeneration.
+Jan 30 00:01:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:02:36 dell-Latitude-E6430 kernel: [32990.337645] usb 1-1.2: new low-speed USB device number 4 using ehci-pci
+Jan 30 00:02:36 dell-Latitude-E6430 kernel: [32990.450570] usb 1-1.2: New USB device found, idVendor=093a, idProduct=2510, bcdDevice= 1.00
+Jan 30 00:02:36 dell-Latitude-E6430 kernel: [32990.450575] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jan 30 00:02:36 dell-Latitude-E6430 kernel: [32990.450578] usb 1-1.2: Product: USB Optical Mouse
+Jan 30 00:02:36 dell-Latitude-E6430 kernel: [32990.450580] usb 1-1.2: Manufacturer: PixArt
+Jan 30 00:02:36 dell-Latitude-E6430 kernel: [32990.453737] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:093A:2510.0002/input/input18
+Jan 30 00:02:36 dell-Latitude-E6430 kernel: [32990.454613] hid-generic 0003:093A:2510.0002: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:1a.0-1.2/input0
+Jan 30 00:02:36 dell-Latitude-E6430 mtp-probe: checking bus 1, device 4: "/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2"
+Jan 30 00:02:36 dell-Latitude-E6430 mtp-probe: bus: 1, device: 4 was not an MTP device
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse2)
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) No input driver specified, ignoring this device.
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) This device may have been added with another device file.
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event16)
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 59 paused 0
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: always reports core events
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "Device" "/dev/input/event16"
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "_source" "server/udev"
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device is a pointer
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device removed
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:093A:2510.0002/input/input18/event16"
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 14)
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "AccelerationScheme" "none"
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+Jan 30 00:02:36 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device is a pointer
+Jan 30 00:02:36 dell-Latitude-E6430 mtp-probe: checking bus 1, device 4: "/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2"
+Jan 30 00:02:36 dell-Latitude-E6430 mtp-probe: bus: 1, device: 4 was not an MTP device
+Jan 30 00:02:44 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 00:02:44 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 00:02:44 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 00:02:44 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 00:02:45 dell-Latitude-E6430 NetworkManager[477]: <info>  [1611957765.0908] agent-manager: agent[0a8b07d59ed042c5,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 00:02:45 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 00:03:14 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 00:06:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:16:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 00:17:01 dell-Latitude-E6430 CRON[91349]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 00:17:40 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 00:17:40 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 00:17:40 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 00:17:40 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 00:18:11 dell-Latitude-E6430 tracker-store[91376]: OK
+Jan 30 00:18:11 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 00:21:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:26:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:29:48 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 00:29:48 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 00:29:48 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 00:29:48 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 00:29:49 dell-Latitude-E6430 NetworkManager[477]: <info>  [1611959389.9508] agent-manager: agent[0a9b59c3d9bd6889,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 00:29:50 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 00:30:19 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 00:31:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 00:50:38 dell-Latitude-E6430 kernel: [35872.630741] usb 1-1.2: USB disconnect, device number 4
+Jan 30 00:46:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 00:50:38 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: removing device PixArt USB Optical Mouse
+Jan 30 00:50:38 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "fd" "59"
+Jan 30 00:50:38 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device removed
+Jan 30 00:50:38 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) UnloadModule: "libinput"
+Jan 30 00:50:38 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) systemd-logind: releasing fd for 13:80
+Jan 30 00:51:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 01:13:34 dell-Latitude-E6430 kernel: [37248.714477] usb 1-1.2: new low-speed USB device number 5 using ehci-pci
+Jan 30 01:13:34 dell-Latitude-E6430 kernel: [37248.827299] usb 1-1.2: New USB device found, idVendor=093a, idProduct=2510, bcdDevice= 1.00
+Jan 30 01:13:34 dell-Latitude-E6430 kernel: [37248.827304] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jan 30 01:13:34 dell-Latitude-E6430 kernel: [37248.827306] usb 1-1.2: Product: USB Optical Mouse
+Jan 30 01:13:34 dell-Latitude-E6430 kernel: [37248.827309] usb 1-1.2: Manufacturer: PixArt
+Jan 30 01:13:34 dell-Latitude-E6430 kernel: [37248.830249] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:093A:2510.0003/input/input19
+Jan 30 01:13:34 dell-Latitude-E6430 kernel: [37248.830880] hid-generic 0003:093A:2510.0003: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:1a.0-1.2/input0
+Jan 30 01:11:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 4 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 01:13:34 dell-Latitude-E6430 mtp-probe: checking bus 1, device 5: "/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2"
+Jan 30 01:13:34 dell-Latitude-E6430 mtp-probe: bus: 1, device: 5 was not an MTP device
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse2)
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) No input driver specified, ignoring this device.
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) This device may have been added with another device file.
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event16)
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 59 paused 0
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: always reports core events
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "Device" "/dev/input/event16"
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "_source" "server/udev"
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device is a pointer
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device removed
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:093A:2510.0003/input/input19/event16"
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 14)
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "AccelerationScheme" "none"
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+Jan 30 01:13:34 dell-Latitude-E6430 mtp-probe: checking bus 1, device 5: "/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2"
+Jan 30 01:13:34 dell-Latitude-E6430 mtp-probe: bus: 1, device: 5 was not an MTP device
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+Jan 30 01:13:34 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device is a pointer
+Jan 30 01:16:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 01:17:01 dell-Latitude-E6430 CRON[91986]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 01:21:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 02:16:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 11 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 02:17:01 dell-Latitude-E6430 CRON[92434]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 02:21:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 02:46:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 02:47:20 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 02:47:20 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 02:47:20 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 02:47:20 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 02:47:22 dell-Latitude-E6430 NetworkManager[477]: <info>  [1611967642.0758] agent-manager: agent[6dfdce2a37e99ccd,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 02:47:22 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 02:47:51 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 02:51:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 02:51:50 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 02:51:50 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 02:51:50 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 02:51:50 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 02:52:21 dell-Latitude-E6430 tracker-store[92755]: OK
+Jan 30 02:52:21 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 02:56:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 02:57:21 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 02:57:21 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 02:57:21 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 02:57:21 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 02:57:52 dell-Latitude-E6430 tracker-store[92829]: OK
+Jan 30 02:57:52 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 02:59:59 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 02:59:59 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 02:59:59 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 02:59:59 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 03:00:30 dell-Latitude-E6430 tracker-store[92868]: OK
+Jan 30 03:00:30 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 03:01:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 03:06:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 03:10:01 dell-Latitude-E6430 CRON[92947]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Jan 30 03:11:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 03:16:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 03:17:01 dell-Latitude-E6430 CRON[93002]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 03:17:12 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 03:17:12 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 03:17:12 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 03:17:12 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 03:17:13 dell-Latitude-E6430 NetworkManager[477]: <info>  [1611969433.9270] agent-manager: agent[a7abef969da1a27d,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 03:17:14 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 03:17:22 dell-Latitude-E6430 NetworkManager[477]: <info>  [1611969442.2525] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jan 30 03:17:22 dell-Latitude-E6430 NetworkManager[477]: <info>  [1611969442.2526] manager: NetworkManager state is now ASLEEP
+Jan 30 03:17:22 dell-Latitude-E6430 whoopsie[1274]: [03:17:22] offline
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560039] pci_bus 0000:01: Allocating resources
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560049] pcieport 0000:00:1c.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560052] pcieport 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000 add_align 100000
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560054] pcieport 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff] to [bus 01] add_size 200000 add_align 100000
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560065] pci_bus 0000:02: Allocating resources
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560119] pcieport 0000:00:1c.1: bridge window [io  0x1000-0x0fff] to [bus 02] add_size 1000
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560122] pcieport 0000:00:1c.1: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 02] add_size 200000 add_align 100000
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560133] pci_bus 0000:03: Allocating resources
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560144] pci_bus 0000:07: Allocating resources
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560155] pci_bus 0000:0b: Allocating resources
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560263] pcieport 0000:00:1c.5: bridge window [io  0x1000-0x0fff] to [bus 0b] add_size 1000
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560266] pcieport 0000:00:1c.5: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 0b] add_size 200000 add_align 100000
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560278] pcieport 0000:00:1c.0: BAR 14: assigned [mem 0xdfb00000-0xdfcfffff]
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560285] pcieport 0000:00:1c.0: BAR 15: assigned [mem 0xdfd00000-0xdfefffff 64bit pref]
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560291] pcieport 0000:00:1c.1: BAR 15: assigned [mem 0xf1400000-0xf15fffff 64bit pref]
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560297] pcieport 0000:00:1c.5: BAR 15: assigned [mem 0xf1600000-0xf17fffff 64bit pref]
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560301] pcieport 0000:00:1c.0: BAR 13: assigned [io  0x2000-0x2fff]
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560303] pcieport 0000:00:1c.1: BAR 13: assigned [io  0x3000-0x3fff]
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.560306] pcieport 0000:00:1c.5: BAR 13: assigned [io  0x4000-0x4fff]
+Jan 30 03:17:22 dell-Latitude-E6430 systemd[1]: Reached target Sleep.
+Jan 30 03:17:22 dell-Latitude-E6430 systemd[1]: Starting Suspend...
+Jan 30 03:17:22 dell-Latitude-E6430 systemd-sleep[93048]: Suspending system...
+Jan 30 03:17:22 dell-Latitude-E6430 kernel: [44676.586699] PM: suspend entry (deep)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.601947] Filesystems sync: 0.015 seconds
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.602493] Freezing user space processes ... (elapsed 0.002 seconds) done.
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.604825] OOM killer disabled.
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.604826] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.606083] printk: Suspending console(s) (use no_console_suspend to debug)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.632131] wlp2s0: deauthenticating from c4:68:d0:68:e7:8b by local choice (Reason: 3=DEAUTH_LEAVING)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.651874] e1000e: EEE TX LPI TIMER: 00000011
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.659704] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.662746] sd 0:0:0:0: [sda] Stopping disk
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.952404] ACPI: EC: interrupt blocked
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.992051] ACPI: Preparing to enter system sleep state S3
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.997609] ACPI: EC: event blocked
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.997611] ACPI: EC: EC stopped
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.997612] PM: Saving platform NVS memory
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.997634] Disabling non-boot CPUs ...
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.998315] IRQ 35: no longer affine to CPU1
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44676.999340] smpboot: CPU 1 is now offline
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.005210] smpboot: CPU 2 is now offline
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.008074] IRQ 16: no longer affine to CPU3
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.008077] IRQ 18: no longer affine to CPU3
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.008082] IRQ 31: no longer affine to CPU3
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.008086] IRQ 36: no longer affine to CPU3
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.009092] smpboot: CPU 3 is now offline
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.012090] ACPI: Low-level resume complete
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.012147] ACPI: EC: EC started
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.012148] PM: Restoring platform NVS memory
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.013400] Enabling non-boot CPUs ...
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.013460] x86: Booting SMP configuration:
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.013461] smpboot: Booting Node 0 Processor 1 APIC 0x2
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.017025] CPU1 is up
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.017067] smpboot: Booting Node 0 Processor 2 APIC 0x1
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.019828] CPU2 is up
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.019864] smpboot: Booting Node 0 Processor 3 APIC 0x3
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.022733] CPU3 is up
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.024830] ACPI: Waking up from system sleep state S3
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.047798] ACPI: EC: interrupt unblocked
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.087012] ACPI: EC: event unblocked
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.097888] sd 0:0:0:0: [sda] Starting disk
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.117823] iwlwifi 0000:02:00.0: Radio type=0x1-0x2-0x0
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.418952] iwlwifi 0000:02:00.0: Radio type=0x1-0x2-0x0
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.447594] ata2: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.447627] ata5: SATA link down (SStatus 0 SControl 300)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.447671] ata6: SATA link down (SStatus 0 SControl 300)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.481708] ata2.00: configured for UDMA/100
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.504512] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.504758] ata1.00: LPM support broken, forcing max_power
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.536574] usb 1-1.2: reset low-speed USB device number 5 using ehci-pci
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.605868] ata1.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.605873] ata1.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.605876] ata1.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.605958] ata1.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.606244] ata1.00: supports DRM functions and may not be fully accessible
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.614122] ata1.00: disabling queued TRIM support
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.653231] ata1.00: LPM support broken, forcing max_power
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.653667] ata1.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.653669] ata1.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.653670] ata1.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.653690] ata1.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.653965] ata1.00: supports DRM functions and may not be fully accessible
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.661786] ata1.00: disabling queued TRIM support
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.678953] ata1.00: configured for UDMA/133
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.689285] ata1.00: Enabling discard_zeroes_data
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.837816] OOM killer enabled.
+Jan 30 12:58:52 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-DISCONNECTED bssid=c4:68:d0:68:e7:8b reason=3 locally_generated=1
+Jan 30 12:58:52 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Jan 30 12:58:52 dell-Latitude-E6430 NetworkManager[477]: <warn>  [1612004332.8405] sup-iface[0x55825a242920,wlp2s0]: connection disconnected (reason -3)
+Jan 30 12:58:52 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004332.8487] device (wlp2s0): supplicant interface state: completed -> disconnected
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.837818] Restarting tasks ... done.
+Jan 30 12:58:52 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 12:58:52 dell-Latitude-E6430 anacron[93160]: Anacron 2.3 started on 2021-01-30
+Jan 30 12:58:52 dell-Latitude-E6430 anacron[93160]: Will run job `cron.daily' in 5 min.
+Jan 30 12:58:52 dell-Latitude-E6430 anacron[93160]: Jobs will be executed sequentially
+Jan 30 12:58:52 dell-Latitude-E6430 systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 30 12:58:52 dell-Latitude-E6430 systemd[1]: Starting Message of the Day...
+Jan 30 12:58:52 dell-Latitude-E6430 systemd[1]: motd-news.service: Succeeded.
+Jan 30 12:58:52 dell-Latitude-E6430 systemd[1]: Finished Message of the Day.
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.894541] pci_bus 0000:01: Allocating resources
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.894555] pci_bus 0000:02: Allocating resources
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.894615] pci_bus 0000:03: Allocating resources
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.894626] pci_bus 0000:07: Allocating resources
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.894636] pci_bus 0000:0b: Allocating resources
+Jan 30 12:58:52 dell-Latitude-E6430 gnome-shell[1884]: An active wireless connection, in infrastructure mode, involves no access point?
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.933306] acpi PNP0401:00: Already enumerated
+Jan 30 12:58:52 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004332.9394] device (wlp2s0): supplicant interface state: disconnected -> scanning
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44677.950064] acpi PNP0501:00: Still not present
+Jan 30 12:58:52 dell-Latitude-E6430 kernel: [44678.001756] PM: suspend exit
+Jan 30 12:58:52 dell-Latitude-E6430 systemd-sleep[93048]: System resumed.
+Jan 30 12:58:53 dell-Latitude-E6430 kernel: [44678.032741] pci_bus 0000:01: Allocating resources
+Jan 30 12:58:53 dell-Latitude-E6430 kernel: [44678.032773] pci_bus 0000:02: Allocating resources
+Jan 30 12:58:53 dell-Latitude-E6430 kernel: [44678.032857] pci_bus 0000:03: Allocating resources
+Jan 30 12:58:53 dell-Latitude-E6430 kernel: [44678.032867] pci_bus 0000:07: Allocating resources
+Jan 30 12:58:53 dell-Latitude-E6430 kernel: [44678.032877] pci_bus 0000:0b: Allocating resources
+Jan 30 12:58:53 dell-Latitude-E6430 systemd-sleep[93194]: /dev/sda:
+Jan 30 12:58:53 dell-Latitude-E6430 systemd-sleep[93194]:  setting Advanced Power Management level to 0xfe (254)
+Jan 30 12:58:53 dell-Latitude-E6430 systemd-sleep[93194]:  APM_level#011= 254
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: systemd-suspend.service: Succeeded.
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Finished Suspend.
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Stopped target Sleep.
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Reached target Suspend.
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Stopped target Suspend.
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.0779] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.0780] device (eno1): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.1909] device (wlp2s0): state change: activated -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan 30 12:58:53 dell-Latitude-E6430 kernel: [44678.200983] e1000e: eno1 NIC Link is Down
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.2121] dhcp4 (wlp2s0): canceled DHCP transaction
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.2121] dhcp4 (wlp2s0): state changed bound -> done
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Withdrawing address record for 192.168.14.173 on wlp2s0.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Leaving mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.14.173.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Interface wlp2s0.IPv4 no longer relevant for mDNS.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Withdrawing address record for fdf6:80d5:812f:0:e56d:afc9:59bc:a490 on wlp2s0.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Withdrawing address record for fdf6:80d5:812f:0:37dd:fe83:13f4:34c on wlp2s0.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fdf6:80d5:812f:0:37dd:fe83:13f4:34c.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::8b0e:e397:2e72:c713.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Registering new address record for fe80::8b0e:e397:2e72:c713 on wlp2s0.*.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Withdrawing address record for fe80::8b0e:e397:2e72:c713 on wlp2s0.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::8b0e:e397:2e72:c713.
+Jan 30 12:58:53 dell-Latitude-E6430 avahi-daemon[469]: Interface wlp2s0.IPv6 no longer relevant for mDNS.
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.2213] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan 30 12:58:53 dell-Latitude-E6430 gnome-shell[1884]: An active wireless connection, in infrastructure mode, involves no access point?
+Jan 30 12:58:53 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.102' (uid=1000 pid=3012 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Starting Firmware update daemon...
+Jan 30 12:58:53 dell-Latitude-E6430 fwupd[93256]: 10:58:53:0393 FuPluginUefi         kernel efivars support missing: /sys/firmware/efi/efivars
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.4913] device (eno1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan 30 12:58:53 dell-Latitude-E6430 wpa_supplicant[513]: nl80211: deinit ifname=wlp2s0 disabled_11b_rates=0
+Jan 30 12:58:53 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=477 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 30 12:58:53 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 30 12:58:53 dell-Latitude-E6430 fwupd[93256]: 10:58:53:0689 FuEngine             device 602b0a6cc821d155208724f0e22f8d111542b74c [Crucial CT512MX100SSD1] does not define a vendor-id!
+Jan 30 12:58:53 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004333.7255] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan 30 12:58:53 dell-Latitude-E6430 kernel: [44678.751547] iwlwifi 0000:02:00.0: Radio type=0x1-0x2-0x0
+Jan 30 12:58:53 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Started Firmware update daemon.
+Jan 30 12:58:53 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.102' (uid=1000 pid=3012 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Jan 30 12:58:53 dell-Latitude-E6430 systemd[1]: Starting PackageKit Daemon...
+Jan 30 12:58:53 dell-Latitude-E6430 PackageKit: daemon start
+Jan 30 12:58:54 dell-Latitude-E6430 kernel: [44679.059270] iwlwifi 0000:02:00.0: Radio type=0x1-0x2-0x0
+Jan 30 12:58:54 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004334.1578] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan 30 12:58:54 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 30 12:58:54 dell-Latitude-E6430 systemd[1]: Started PackageKit Daemon.
+Jan 30 12:58:54 dell-Latitude-E6430 wpa_supplicant[513]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Jan 30 12:58:54 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004334.2215] sup-iface[0x55825a242a10,wlp2s0]: supports 5 scan SSIDs
+Jan 30 12:58:54 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004334.2226] device (wlp2s0): supplicant interface state: starting -> ready
+Jan 30 12:58:54 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004334.2227] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jan 30 12:58:54 dell-Latitude-E6430 PackageKit: refresh-cache transaction /660_ccdbeabe from uid 1000 finished with failed after 356ms
+Jan 30 12:58:54 dell-Latitude-E6430 gnome-software[3012]: not handling error no-network for action refresh: Cannot refresh cache whilst offline
+Jan 30 12:58:54 dell-Latitude-E6430 gnome-software[3012]: Failed to find refreshable snaps: cannot list updates: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: no such host
+Jan 30 12:58:55 dell-Latitude-E6430 gnome-shell[2274]: [2267:2289:0130/125855.225682:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 30 12:58:55 dell-Latitude-E6430 update-notifier.desktop[4963]: required_download could not be calculated: E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dbg:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-i386:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dev:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-dev-bin:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'locales:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-bin:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'udev:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libudev1:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-sysv:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-common:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-dev:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-intel1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-radeon1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-nouveau2:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-amdgpu1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libegl-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgbm1:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g-dev:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:amd64', E:Can't find a source to download version '1:11.0.0-2~ubuntu20.04.1' of 'libllvm11:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgl1-mesa-dri:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglx-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglapi-mesa:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles2:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd0:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libnss-systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-timesyncd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libpam-systemd:amd64', E:Can't find a source to download version '2:2.2.2-3ubuntu2.3' of 'libcryptsetup12:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libsystemd0:amd64', E:Can't find a source to download version '2.0.4' of 'libapt-pkg6.0:amd64', E:Can't find a source to download version '2.0.4' of 'apt:amd64', E:Can't find a source to download version '2.0.4' of 'apt-utils:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libatopology2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2-data:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-en-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-he:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulsedsp:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-utils:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse-mainloop-glib0:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-module-bluetooth:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse0:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'gir1.2-snapd-1:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'libsnapd-glib1:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'whoopsie:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'libwhoopsie0:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:i386', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:i386', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'libnetplan0:amd64', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'netplan.io:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-dnsutils:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-libs:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-host:amd64', E:Can't find a source to download version '1:1.30.1-4ubuntu6.3' of 'busybox-static:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:i386', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'parted:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted-fs-resize0:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted2:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'libplymouth5:amd64', E:Can't find a source to download version '02.18.85-0.3ubuntu2.20.04.1' of 'lshw:amd64', E:Can't find a source to download version '4.93.2+dfsg-1ubuntu0.20.04.1' of 'lsof:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-spinner:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-logo:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-label:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-text:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python-apt-common:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python3-apt:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-gtk:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-core:amd64', E:Can't find a source to download version '1:20.04.30' of 'python3-distupgrade
+Jan 30 12:58:55 dell-Latitude-E6430 ModemManager[568]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:19.0': not supported by any plugin
+Jan 30 12:58:55 dell-Latitude-E6430 ModemManager[568]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.1/0000:02:00.0': not supported by any plugin
+Jan 30 12:58:56 dell-Latitude-E6430 update-notifier.desktop[4963]: required_download could not be calculated: E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dbg:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-i386:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dev:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-dev-bin:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'locales:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-bin:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'udev:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libudev1:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-sysv:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-common:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-dev:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-intel1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-radeon1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-nouveau2:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-amdgpu1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libegl-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgbm1:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g-dev:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:amd64', E:Can't find a source to download version '1:11.0.0-2~ubuntu20.04.1' of 'libllvm11:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgl1-mesa-dri:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglx-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglapi-mesa:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles2:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd0:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libnss-systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-timesyncd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libpam-systemd:amd64', E:Can't find a source to download version '2:2.2.2-3ubuntu2.3' of 'libcryptsetup12:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libsystemd0:amd64', E:Can't find a source to download version '2.0.4' of 'libapt-pkg6.0:amd64', E:Can't find a source to download version '2.0.4' of 'apt:amd64', E:Can't find a source to download version '2.0.4' of 'apt-utils:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libatopology2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2-data:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-en-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-he:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulsedsp:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-utils:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse-mainloop-glib0:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-module-bluetooth:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse0:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'gir1.2-snapd-1:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'libsnapd-glib1:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'whoopsie:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'libwhoopsie0:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:i386', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:i386', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'libnetplan0:amd64', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'netplan.io:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-dnsutils:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-libs:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-host:amd64', E:Can't find a source to download version '1:1.30.1-4ubuntu6.3' of 'busybox-static:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:i386', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'parted:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted-fs-resize0:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted2:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'libplymouth5:amd64', E:Can't find a source to download version '02.18.85-0.3ubuntu2.20.04.1' of 'lshw:amd64', E:Can't find a source to download version '4.93.2+dfsg-1ubuntu0.20.04.1' of 'lsof:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-spinner:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-logo:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-label:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-text:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python-apt-common:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python3-apt:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-gtk:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-core:amd64', E:Can't find a source to download version '1:20.04.30' of 'python3-distupgrade
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4485] policy: auto-activating connection 'David' (3153b594-6b69-4d5c-a3ee-eff7ab4d4771)
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4492] device (wlp2s0): Activation: starting connection 'David' (3153b594-6b69-4d5c-a3ee-eff7ab4d4771)
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4493] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4497] manager: NetworkManager state is now CONNECTING
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4502] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4506] device (wlp2s0): Activation: (wifi) access point 'David' has security, but secrets are required.
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4506] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4508] sup-iface[0x55825a242a10,wlp2s0]: wps: type pbc start...
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4539] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4546] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4550] device (wlp2s0): Activation: (wifi) connection 'David' has security, and secrets exist.  No new secrets needed.
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4551] Config: added 'ssid' value 'David'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4551] Config: added 'scan_ssid' value '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4551] Config: added 'bgscan' value 'simple:30:-70:86400'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4551] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4551] Config: added 'auth_alg' value 'OPEN'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4551] Config: added 'psk' value '<hidden>'
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: SME: Trying to authenticate with c4:68:d0:68:e7:8b (SSID='David' freq=2457 MHz)
+Jan 30 12:58:57 dell-Latitude-E6430 kernel: [44682.505726] wlp2s0: authenticate with c4:68:d0:68:e7:8b
+Jan 30 12:58:57 dell-Latitude-E6430 kernel: [44682.506758] wlp2s0: send auth to c4:68:d0:68:e7:8b (try 1/3)
+Jan 30 12:58:57 dell-Latitude-E6430 kernel: [44682.508508] wlp2s0: authenticated
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: Trying to associate with c4:68:d0:68:e7:8b (SSID='David' freq=2457 MHz)
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.4968] device (wlp2s0): supplicant interface state: ready -> associating
+Jan 30 12:58:57 dell-Latitude-E6430 kernel: [44682.512518] wlp2s0: associate with c4:68:d0:68:e7:8b (try 1/3)
+Jan 30 12:58:57 dell-Latitude-E6430 kernel: [44682.516206] wlp2s0: RX AssocResp from c4:68:d0:68:e7:8b (capab=0x431 status=0 aid=25)
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: Associated with c4:68:d0:68:e7:8b
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=IL
+Jan 30 12:58:57 dell-Latitude-E6430 kernel: [44682.519300] wlp2s0: associated
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.5138] device (wlp2s0): supplicant interface state: associating -> 4-way handshake
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: WPA: Key negotiation completed with c4:68:d0:68:e7:8b [PTK=CCMP GTK=TKIP]
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-CONNECTED - Connection to c4:68:d0:68:e7:8b completed [id=0 id_str=]
+Jan 30 12:58:57 dell-Latitude-E6430 kernel: [44682.527044] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.5199] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.5200] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "David"
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.5211] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.5221] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Jan 30 12:58:57 dell-Latitude-E6430 avahi-daemon[469]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::8b0e:e397:2e72:c713.
+Jan 30 12:58:57 dell-Latitude-E6430 avahi-daemon[469]: New relevant interface wlp2s0.IPv6 for mDNS.
+Jan 30 12:58:57 dell-Latitude-E6430 avahi-daemon[469]: Registering new address record for fe80::8b0e:e397:2e72:c713 on wlp2s0.*.
+Jan 30 12:58:57 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-34 noise=9999 txrate=1000
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7834] dhcp4 (wlp2s0): option dhcp_lease_time      => '864000'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7834] dhcp4 (wlp2s0): option domain_name          => 'Home'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7835] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.14.1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7835] dhcp4 (wlp2s0): option expiry               => '1612868337'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7835] dhcp4 (wlp2s0): option ip_address           => '192.168.14.173'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7835] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7835] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7835] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7835] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 avahi-daemon[469]: Joining mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.14.173.
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7836] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 avahi-daemon[469]: New relevant interface wlp2s0.IPv4 for mDNS.
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): option requested_routers    => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 avahi-daemon[469]: Registering new address record for 192.168.14.173 on wlp2s0.IPv4.
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): option routers              => '192.168.14.1'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7837] dhcp4 (wlp2s0): state changed unknown -> bound
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.7866] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.8203] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.8209] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.8220] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.8253] manager: NetworkManager state is now CONNECTED_SITE
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.8256] policy: set 'David' (wlp2s0) as default for IPv4 routing and DNS
+Jan 30 12:58:57 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004337.8363] device (wlp2s0): Activation: successful, device activated.
+Jan 30 12:58:57 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 12:58:58 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004338.2952] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan 30 12:58:58 dell-Latitude-E6430 update-notifier.desktop[4963]: required_download could not be calculated: E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dbg:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-i386:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dev:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-dev-bin:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'locales:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-bin:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'udev:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libudev1:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-sysv:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-common:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-dev:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-intel1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-radeon1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-nouveau2:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-amdgpu1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libegl-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgbm1:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g-dev:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:amd64', E:Can't find a source to download version '1:11.0.0-2~ubuntu20.04.1' of 'libllvm11:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgl1-mesa-dri:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglx-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglapi-mesa:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles2:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd0:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libnss-systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-timesyncd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libpam-systemd:amd64', E:Can't find a source to download version '2:2.2.2-3ubuntu2.3' of 'libcryptsetup12:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libsystemd0:amd64', E:Can't find a source to download version '2.0.4' of 'libapt-pkg6.0:amd64', E:Can't find a source to download version '2.0.4' of 'apt:amd64', E:Can't find a source to download version '2.0.4' of 'apt-utils:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libatopology2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2-data:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-en-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-he:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulsedsp:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-utils:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse-mainloop-glib0:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-module-bluetooth:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse0:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'gir1.2-snapd-1:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'libsnapd-glib1:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'whoopsie:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'libwhoopsie0:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:i386', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:i386', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'libnetplan0:amd64', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'netplan.io:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-dnsutils:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-libs:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-host:amd64', E:Can't find a source to download version '1:1.30.1-4ubuntu6.3' of 'busybox-static:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:i386', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'parted:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted-fs-resize0:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted2:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'libplymouth5:amd64', E:Can't find a source to download version '02.18.85-0.3ubuntu2.20.04.1' of 'lshw:amd64', E:Can't find a source to download version '4.93.2+dfsg-1ubuntu0.20.04.1' of 'lsof:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-spinner:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-logo:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-label:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-text:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python-apt-common:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python3-apt:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-gtk:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-core:amd64', E:Can't find a source to download version '1:20.04.30' of 'python3-distupgrade
+Jan 30 12:58:59 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-32 noise=9999 txrate=65000
+Jan 30 12:58:59 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004339.3736] agent-manager: agent[a7abef969da1a27d,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 12:58:59 dell-Latitude-E6430 avahi-daemon[469]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::8b0e:e397:2e72:c713.
+Jan 30 12:58:59 dell-Latitude-E6430 avahi-daemon[469]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fdf6:80d5:812f:0:37dd:fe83:13f4:34c.
+Jan 30 12:58:59 dell-Latitude-E6430 avahi-daemon[469]: Registering new address record for fdf6:80d5:812f:0:37dd:fe83:13f4:34c on wlp2s0.*.
+Jan 30 12:58:59 dell-Latitude-E6430 avahi-daemon[469]: Withdrawing address record for fe80::8b0e:e397:2e72:c713 on wlp2s0.
+Jan 30 12:58:59 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 12:59:00 dell-Latitude-E6430 update-notifier.desktop[4963]: required_download could not be calculated: E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dbg:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-i386:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dev:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-dev-bin:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'locales:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-bin:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'udev:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libudev1:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-sysv:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-common:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-dev:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-intel1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-radeon1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-nouveau2:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-amdgpu1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libegl-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgbm1:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g-dev:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:amd64', E:Can't find a source to download version '1:11.0.0-2~ubuntu20.04.1' of 'libllvm11:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgl1-mesa-dri:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglx-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglapi-mesa:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles2:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd0:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libnss-systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-timesyncd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libpam-systemd:amd64', E:Can't find a source to download version '2:2.2.2-3ubuntu2.3' of 'libcryptsetup12:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libsystemd0:amd64', E:Can't find a source to download version '2.0.4' of 'libapt-pkg6.0:amd64', E:Can't find a source to download version '2.0.4' of 'apt:amd64', E:Can't find a source to download version '2.0.4' of 'apt-utils:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libatopology2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2-data:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-en-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-he:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulsedsp:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-utils:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse-mainloop-glib0:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-module-bluetooth:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse0:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'gir1.2-snapd-1:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'libsnapd-glib1:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'whoopsie:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'libwhoopsie0:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:i386', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:i386', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'libnetplan0:amd64', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'netplan.io:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-dnsutils:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-libs:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-host:amd64', E:Can't find a source to download version '1:1.30.1-4ubuntu6.3' of 'busybox-static:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:i386', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'parted:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted-fs-resize0:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted2:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'libplymouth5:amd64', E:Can't find a source to download version '02.18.85-0.3ubuntu2.20.04.1' of 'lshw:amd64', E:Can't find a source to download version '4.93.2+dfsg-1ubuntu0.20.04.1' of 'lsof:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-spinner:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-logo:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-label:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-text:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python-apt-common:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python3-apt:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-gtk:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-core:amd64', E:Can't find a source to download version '1:20.04.30' of 'python3-distupgrade
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 12:59:00 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 12:59:01 dell-Latitude-E6430 avahi-daemon[469]: Registering new address record for fdf6:80d5:812f:0:e56d:afc9:59bc:a490 on wlp2s0.*.
+Jan 30 12:59:01 dell-Latitude-E6430 update-notifier.desktop[4963]: required_download could not be calculated: E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dbg:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-i386:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dev:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-dev-bin:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'locales:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-bin:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'udev:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libudev1:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-sysv:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-common:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-dev:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-intel1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-radeon1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-nouveau2:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-amdgpu1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libegl-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgbm1:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g-dev:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:amd64', E:Can't find a source to download version '1:11.0.0-2~ubuntu20.04.1' of 'libllvm11:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgl1-mesa-dri:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglx-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglapi-mesa:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles2:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd0:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libnss-systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-timesyncd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libpam-systemd:amd64', E:Can't find a source to download version '2:2.2.2-3ubuntu2.3' of 'libcryptsetup12:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libsystemd0:amd64', E:Can't find a source to download version '2.0.4' of 'libapt-pkg6.0:amd64', E:Can't find a source to download version '2.0.4' of 'apt:amd64', E:Can't find a source to download version '2.0.4' of 'apt-utils:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libatopology2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2-data:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-en-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-he:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulsedsp:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-utils:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse-mainloop-glib0:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-module-bluetooth:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse0:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'gir1.2-snapd-1:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'libsnapd-glib1:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'whoopsie:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'libwhoopsie0:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:i386', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:i386', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'libnetplan0:amd64', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'netplan.io:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-dnsutils:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-libs:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-host:amd64', E:Can't find a source to download version '1:1.30.1-4ubuntu6.3' of 'busybox-static:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:i386', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'parted:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted-fs-resize0:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted2:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'libplymouth5:amd64', E:Can't find a source to download version '02.18.85-0.3ubuntu2.20.04.1' of 'lshw:amd64', E:Can't find a source to download version '4.93.2+dfsg-1ubuntu0.20.04.1' of 'lsof:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-spinner:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-logo:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-label:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-text:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python-apt-common:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python3-apt:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-gtk:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-core:amd64', E:Can't find a source to download version '1:20.04.30' of 'python3-distupgrade
+Jan 30 12:59:02 dell-Latitude-E6430 update-notifier.desktop[4963]: required_download could not be calculated: E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dbg:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-i386:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6-dev:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-dev-bin:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'locales:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc-bin:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'udev:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libudev1:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-sysv:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libopengl0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgl1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-common:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-dev:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-intel1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-radeon1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-nouveau2:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm-amdgpu1:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libegl-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgbm1:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g-dev:amd64', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:amd64', E:Can't find a source to download version '1:11.0.0-2~ubuntu20.04.1' of 'libllvm11:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libgl1-mesa-dri:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglx-mesa0:amd64', E:Can't find a source to download version '20.2.6-0ubuntu0.20.04.1' of 'libglapi-mesa:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglx0:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libgles2:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd-dev:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libegl1:amd64', E:Can't find a source to download version '1.3.2-1~ubuntu0.20.04.1' of 'libglvnd0:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libnss-systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd-timesyncd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libpam-systemd:amd64', E:Can't find a source to download version '2:2.2.2-3ubuntu2.3' of 'libcryptsetup12:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'systemd:amd64', E:Can't find a source to download version '245.4-4ubuntu3.4' of 'libsystemd0:amd64', E:Can't find a source to download version '2.0.4' of 'libapt-pkg6.0:amd64', E:Can't find a source to download version '2.0.4' of 'apt:amd64', E:Can't find a source to download version '2.0.4' of 'apt-utils:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libatopology2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2:amd64', E:Can't find a source to download version '1.2.2-2.1ubuntu2.3' of 'libasound2-data:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-en-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-he-base:amd64', E:Can't find a source to download version '1:20.04+20210121' of 'language-pack-gnome-he:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulsedsp:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-utils:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse-mainloop-glib0:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio-module-bluetooth:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'pulseaudio:amd64', E:Can't find a source to download version '1:13.99.1-1ubuntu3.10' of 'libpulse0:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'gir1.2-snapd-1:amd64', E:Can't find a source to download version '1.58-0ubuntu0.20.04.0' of 'libsnapd-glib1:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'whoopsie:amd64', E:Can't find a source to download version '0.2.69ubuntu0.2' of 'libwhoopsie0:amd64', E:Can't find a source to download version '2.31-0ubuntu9.2' of 'libc6:i386', E:Can't find a source to download version '1:1.2.11.dfsg-2ubuntu1.2' of 'zlib1g:i386', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'libnetplan0:amd64', E:Can't find a source to download version '0.101-0ubuntu3~20.04.2' of 'netplan.io:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-dnsutils:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-libs:amd64', E:Can't find a source to download version '1:9.16.1-0ubuntu2.4' of 'bind9-host:amd64', E:Can't find a source to download version '1:1.30.1-4ubuntu6.3' of 'busybox-static:amd64', E:Can't find a source to download version '2.4.102-1ubuntu1~20.04.1' of 'libdrm2:i386', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'parted:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted-fs-resize0:amd64', E:Can't find a source to download version '3.3-4ubuntu0.20.04.1' of 'libparted2:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'libplymouth5:amd64', E:Can't find a source to download version '02.18.85-0.3ubuntu2.20.04.1' of 'lshw:amd64', E:Can't find a source to download version '4.93.2+dfsg-1ubuntu0.20.04.1' of 'lsof:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-spinner:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-logo:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-label:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth-theme-ubuntu-text:amd64', E:Can't find a source to download version '0.9.4git20200323-0ubuntu6.2' of 'plymouth:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python-apt-common:amd64', E:Can't find a source to download version '2.0.0ubuntu0.20.04.4' of 'python3-apt:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-gtk:amd64', E:Can't find a source to download version '1:20.04.30' of 'ubuntu-release-upgrader-core:amd64', E:Can't find a source to download version '1:20.04.30' of 'python3-distupgrade
+Jan 30 12:59:02 dell-Latitude-E6430 whoopsie[1274]: [12:59:02] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jan 30 12:59:02 dell-Latitude-E6430 whoopsie[1274]: [12:59:02] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jan 30 12:59:02 dell-Latitude-E6430 whoopsie[1274]: [12:59:02] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jan 30 12:59:02 dell-Latitude-E6430 whoopsie[1274]: [12:59:02] online
+Jan 30 12:59:03 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 12:59:04 dell-Latitude-E6430 wpa_supplicant[513]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-27 noise=9999 txrate=117000
+Jan 30 12:59:04 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 12:59:07 dell-Latitude-E6430 systemd-resolved[398]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 12:59:08 dell-Latitude-E6430 systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jan 30 12:59:11 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 12:59:11 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 12:59:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 12:59:57 dell-Latitude-E6430 update-notifier.desktop[94644]: /var/cache/apt/archives/lock:
+Jan 30 12:59:59 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:00:29 dell-Latitude-E6430 systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 30 13:00:29 dell-Latitude-E6430 systemd[1]: Finished Daily apt upgrade and clean activities.
+Jan 30 13:01:03 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:01:34 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 13:01:34 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 13:01:34 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 13:01:34 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 13:02:04 dell-Latitude-E6430 tracker-store[97260]: OK
+Jan 30 13:02:04 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 13:03:11 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:03:52 dell-Latitude-E6430 anacron[93160]: Job `cron.daily' started
+Jan 30 13:03:52 dell-Latitude-E6430 anacron[97546]: Updated timestamp for job `cron.daily' to 2021-01-30
+Jan 30 13:03:52 dell-Latitude-E6430 cracklib: no dictionary update necessary.
+Jan 30 13:03:56 dell-Latitude-E6430 anacron[93160]: Job `cron.daily' terminated
+Jan 30 13:03:56 dell-Latitude-E6430 anacron[93160]: Normal exit (1 job run)
+Jan 30 13:03:56 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 13:05:34 dell-Latitude-E6430 PackageKit: daemon quit
+Jan 30 13:05:34 dell-Latitude-E6430 systemd[1]: packagekit.service: Succeeded.
+Jan 30 13:07:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:07:34 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 13:07:34 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 13:07:34 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 13:07:34 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 13:07:36 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612004856.6168] agent-manager: agent[a7abef969da1a27d,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 13:07:37 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 13:08:05 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 13:09:11 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 13:09:11 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 13:09:11 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 13:09:11 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 13:09:41 dell-Latitude-E6430 tracker-store[98018]: OK
+Jan 30 13:09:41 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 13:12:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:12:40 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 13:12:40 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 13:12:40 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 13:12:40 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 13:13:11 dell-Latitude-E6430 tracker-store[98058]: OK
+Jan 30 13:13:11 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 13:15:49 dell-Latitude-E6430 systemd[1]: Starting Refresh fwupd metadata and update motd...
+Jan 30 13:15:49 dell-Latitude-E6430 systemd[1]: fwupd-refresh.service: Succeeded.
+Jan 30 13:15:49 dell-Latitude-E6430 systemd[1]: Finished Refresh fwupd metadata and update motd.
+Jan 30 13:17:01 dell-Latitude-E6430 CRON[98129]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 13:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:27:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 13:30:01 dell-Latitude-E6430 CRON[98268]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 13:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:32:43 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 13:32:43 dell-Latitude-E6430 anacron[98285]: Anacron 2.3 started on 2021-01-30
+Jan 30 13:32:43 dell-Latitude-E6430 anacron[98285]: Normal exit (0 jobs run)
+Jan 30 13:32:43 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 13:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:47:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 13:48:58 dell-Latitude-E6430 systemd[1]: Starting Daily apt download activities...
+Jan 30 13:48:59 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:48:59 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 13:49:01 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.347' (uid=0 pid=98997 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jan 30 13:49:01 dell-Latitude-E6430 systemd[1]: Starting PackageKit Daemon...
+Jan 30 13:49:01 dell-Latitude-E6430 PackageKit: daemon start
+Jan 30 13:49:01 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 30 13:49:01 dell-Latitude-E6430 systemd[1]: Started PackageKit Daemon.
+Jan 30 13:49:37 dell-Latitude-E6430 systemd[1]: apt-daily.service: Succeeded.
+Jan 30 13:49:37 dell-Latitude-E6430 systemd[1]: Finished Daily apt download activities.
+Jan 30 13:52:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 13:54:07 dell-Latitude-E6430 PackageKit: daemon quit
+Jan 30 13:54:07 dell-Latitude-E6430 systemd[1]: packagekit.service: Succeeded.
+Jan 30 13:57:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:02:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:04:45 dell-Latitude-E6430 snapd[87871]: storehelpers.go:551: cannot refresh: snap has no updates available: "code", "core", "core18", "gnome-3-34-1804", "gnome-system-monitor", "gtk-common-themes", "snap-store"
+Jan 30 14:04:45 dell-Latitude-E6430 snapd[87871]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+Jan 30 14:07:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:12:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:17:01 dell-Latitude-E6430 CRON[99839]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 14:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:22:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:26:27 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 14:26:27 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 14:26:27 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 14:26:27 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 14:26:28 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612009588.3589] agent-manager: agent[118a5c734bdb90cc,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 14:26:29 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 14:26:57 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 14:26:58 dell-Latitude-E6430 gnome-shell[2274]: [2306:2311:0130/142658.251552:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -107
+Jan 30 14:26:58 dell-Latitude-E6430 gnome-shell[2274]: [2306:2311:0130/142658.962356:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -113
+Jan 30 14:26:59 dell-Latitude-E6430 gnome-shell[2274]: [2306:2311:0130/142659.167659:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -113
+Jan 30 14:27:08 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:27:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 4 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 14:30:01 dell-Latitude-E6430 CRON[100878]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 14:30:26 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 14:30:26 dell-Latitude-E6430 anacron[100890]: Anacron 2.3 started on 2021-01-30
+Jan 30 14:30:26 dell-Latitude-E6430 anacron[100890]: Normal exit (0 jobs run)
+Jan 30 14:30:26 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 14:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:35:16 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 14:35:16 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 14:35:16 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 14:35:16 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 14:35:47 dell-Latitude-E6430 tracker-store[100985]: OK
+Jan 30 14:35:47 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 14:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:37:30 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 14:37:30 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 14:37:30 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 14:37:30 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 14:38:01 dell-Latitude-E6430 tracker-store[101018]: OK
+Jan 30 14:38:01 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 14:39:32 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 14:39:32 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 14:39:32 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 14:39:32 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 14:40:02 dell-Latitude-E6430 tracker-store[101065]: OK
+Jan 30 14:40:02 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 14:42:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 14:45:17 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 14:45:17 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 14:45:17 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 14:45:17 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 14:45:47 dell-Latitude-E6430 tracker-store[101173]: OK
+Jan 30 14:45:47 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 14:47:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 15:12:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 15:15:49 dell-Latitude-E6430 systemd[1]: fwupd.service: Succeeded.
+Jan 30 15:17:01 dell-Latitude-E6430 CRON[101628]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 15:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 15:27:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 15:30:01 dell-Latitude-E6430 CRON[101816]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 15:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 15:33:43 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 15:33:43 dell-Latitude-E6430 anacron[101863]: Anacron 2.3 started on 2021-01-30
+Jan 30 15:33:43 dell-Latitude-E6430 anacron[101863]: Normal exit (0 jobs run)
+Jan 30 15:33:43 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 15:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 15:57:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 4 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 15:59:33 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 15:59:33 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 15:59:33 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 15:59:33 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 15:59:34 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612015174.7050] agent-manager: agent[81c977f6178032e6,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 15:59:35 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 16:00:03 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 16:02:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 16:02:37 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 16:02:37 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 16:02:37 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 16:02:37 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 16:03:07 dell-Latitude-E6430 tracker-store[102312]: OK
+Jan 30 16:03:07 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 16:05:49 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 16:05:49 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 16:05:49 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 16:05:49 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 16:06:19 dell-Latitude-E6430 tracker-store[102372]: OK
+Jan 30 16:06:19 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 16:06:45 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 16:06:45 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 16:06:45 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 16:06:45 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 16:07:15 dell-Latitude-E6430 tracker-store[102391]: OK
+Jan 30 16:07:15 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 16:07:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 16:12:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 16:17:01 dell-Latitude-E6430 CRON[102522]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 16:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 16:27:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 16:30:01 dell-Latitude-E6430 CRON[102705]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 16:30:43 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 16:30:43 dell-Latitude-E6430 anacron[102711]: Anacron 2.3 started on 2021-01-30
+Jan 30 16:30:43 dell-Latitude-E6430 anacron[102711]: Normal exit (0 jobs run)
+Jan 30 16:30:43 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 16:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 16:33:46 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 16:33:46 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 16:33:46 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 16:33:46 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 16:33:50 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612017230.8029] agent-manager: agent[118a5c734bdb90cc,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 16:33:51 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 16:34:17 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 16:35:01 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 16:35:01 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 16:35:01 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 16:35:01 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 16:35:32 dell-Latitude-E6430 tracker-store[102846]: OK
+Jan 30 16:35:32 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 16:36:54 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 16:36:54 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 16:36:54 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 16:36:54 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 16:37:25 dell-Latitude-E6430 tracker-store[102904]: OK
+Jan 30 16:37:25 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 16:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 16:57:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 4 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 17:00:05 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 17:00:05 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 17:00:05 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 17:00:05 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 17:00:06 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612018806.3809] agent-manager: agent[a7abef969da1a27d,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 17:00:07 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 17:00:35 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 17:02:19 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 17:02:19 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 17:02:19 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 17:02:19 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 17:02:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 17:02:49 dell-Latitude-E6430 tracker-store[103294]: OK
+Jan 30 17:02:49 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 17:03:22 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 17:03:22 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 17:03:22 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 17:03:22 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 17:04:35 dell-Latitude-E6430 tracker-store[103323]: OK
+Jan 30 17:04:35 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 17:07:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 17:09:10 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 17:09:10 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 17:09:10 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 17:09:10 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 17:09:41 dell-Latitude-E6430 tracker-store[103414]: OK
+Jan 30 17:09:41 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 17:12:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 17:17:01 dell-Latitude-E6430 CRON[103518]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 17:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 17:27:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 17:29:03 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 17:29:03 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 17:29:03 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 17:29:03 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 17:29:05 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612020545.0326] agent-manager: agent[30694ad80d63ec0c,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 17:29:05 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 17:29:34 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 17:30:01 dell-Latitude-E6430 CRON[103831]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 17:30:40 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 17:30:40 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 17:30:40 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 17:30:40 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 17:31:11 dell-Latitude-E6430 tracker-store[103867]: OK
+Jan 30 17:31:11 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 17:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 17:34:43 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 17:34:43 dell-Latitude-E6430 anacron[104005]: Anacron 2.3 started on 2021-01-30
+Jan 30 17:34:43 dell-Latitude-E6430 anacron[104005]: Normal exit (0 jobs run)
+Jan 30 17:34:43 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 17:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 18:12:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 7 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 18:17:01 dell-Latitude-E6430 CRON[104613]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 18:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 18:27:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 18:30:01 dell-Latitude-E6430 CRON[104800]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 18:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 18:32:43 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 18:32:43 dell-Latitude-E6430 anacron[104831]: Anacron 2.3 started on 2021-01-30
+Jan 30 18:32:43 dell-Latitude-E6430 anacron[104831]: Normal exit (0 jobs run)
+Jan 30 18:32:43 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 18:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:02:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 19:06:39 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 19:06:39 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 19:06:39 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 19:06:39 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 19:06:41 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612026401.3980] agent-manager: agent[30694ad80d63ec0c,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 19:06:42 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 19:07:10 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 19:07:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:07:28 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 19:07:28 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 19:07:28 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 19:07:28 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 19:07:43 dell-Latitude-E6430 zeitgeist-datah[2441]: zeitgeist-datahub.vala:210: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+Jan 30 19:07:43 dell-Latitude-E6430 systemd[1648]: Started Application launched by gnome-shell.
+Jan 30 19:07:50 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.364' (uid=1000 pid=105437 comm="/usr/lib/libreoffice/program/soffice.bin --writer " label="libreoffice-soffice (complain)")
+Jan 30 19:07:50 dell-Latitude-E6430 systemd[1]: Starting Hostname Service...
+Jan 30 19:07:51 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 30 19:07:51 dell-Latitude-E6430 systemd[1]: Started Hostname Service.
+Jan 30 19:07:51 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:07:51 dell-Latitude-E6430 systemd-resolved[398]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 19:07:58 dell-Latitude-E6430 tracker-store[105380]: OK
+Jan 30 19:07:58 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 19:08:01 dell-Latitude-E6430 kernel: [66826.005568] audit: type=1400 audit(1612026481.017:92): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/dell/Documents/Developments/unityVersions" pid=105437 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jan 30 19:08:01 dell-Latitude-E6430 kernel: [66826.021108] audit: type=1400 audit(1612026481.033:93): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/dell/Documents/Developments/unityVersions" pid=105437 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jan 30 19:08:21 dell-Latitude-E6430 systemd[1]: systemd-hostnamed.service: Succeeded.
+Jan 30 19:08:30 dell-Latitude-E6430 kernel: [66855.102928] audit: type=1400 audit(1612026510.117:94): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/dell/.pam_environment" pid=105437 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jan 30 19:08:30 dell-Latitude-E6430 kernel: [66855.104005] audit: type=1400 audit(1612026510.117:95): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/dell/cuda-repo-ubuntu1804-11-1-local_11.1.0-455.23.05-1_amd64.deb.1" pid=105437 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jan 30 19:08:30 dell-Latitude-E6430 kernel: [66855.104180] audit: type=1400 audit(1612026510.117:96): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/dell/.gitconfig" pid=105437 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jan 30 19:08:30 dell-Latitude-E6430 kernel: [66855.104528] audit: type=1400 audit(1612026510.117:97): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/dell/.wget-hsts" pid=105437 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jan 30 19:08:30 dell-Latitude-E6430 kernel: [66855.129143] audit: type=1400 audit(1612026510.141:98): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/dell/cuda-repo-ubuntu1804-11-1-local_11.1.0-455.23.05-1_amd64.deb.1" pid=105437 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jan 30 19:09:31 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 19:09:31 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 19:09:31 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 19:09:31 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 19:10:01 dell-Latitude-E6430 tracker-store[105571]: OK
+Jan 30 19:10:01 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 19:12:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:12:46 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1657 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jan 30 19:12:46 dell-Latitude-E6430 systemd[1648]: Starting Tracker metadata database store and lookup manager...
+Jan 30 19:12:46 dell-Latitude-E6430 dbus-daemon[1660]: [session uid=1000 pid=1660] Successfully activated service 'org.freedesktop.Tracker1'
+Jan 30 19:12:46 dell-Latitude-E6430 systemd[1648]: Started Tracker metadata database store and lookup manager.
+Jan 30 19:13:16 dell-Latitude-E6430 tracker-store[105638]: OK
+Jan 30 19:13:16 dell-Latitude-E6430 systemd[1648]: tracker-store.service: Succeeded.
+Jan 30 19:16:16 dell-Latitude-E6430 kernel: [67321.730821] perf: interrupt took too long (6244 > 6241), lowering kernel.perf_event_max_sample_rate to 32000
+Jan 30 19:17:01 dell-Latitude-E6430 CRON[105769]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 19:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:17:51 dell-Latitude-E6430 gnome-shell[2274]: [2306:2311:0130/191751.974912:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -107
+Jan 30 19:17:55 dell-Latitude-E6430 gnome-shell[2274]: [2306:2311:0130/191755.495759:ERROR:ssl_client_socket_impl.cc(960)] handshake failed; returned -1, SSL error code 1, net_error -113
+Jan 30 19:22:13 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.367' (uid=1000 pid=105437 comm="/usr/lib/libreoffice/program/soffice.bin --writer " label="libreoffice-soffice (complain)")
+Jan 30 19:22:13 dell-Latitude-E6430 systemd[1]: Starting Hostname Service...
+Jan 30 19:22:13 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 30 19:22:13 dell-Latitude-E6430 systemd[1]: Started Hostname Service.
+Jan 30 19:22:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:22:43 dell-Latitude-E6430 systemd[1]: systemd-hostnamed.service: Succeeded.
+Jan 30 19:27:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:30:01 dell-Latitude-E6430 CRON[106354]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 19:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:34:57 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 19:34:57 dell-Latitude-E6430 anacron[106421]: Anacron 2.3 started on 2021-01-30
+Jan 30 19:34:57 dell-Latitude-E6430 anacron[106421]: Normal exit (0 jobs run)
+Jan 30 19:34:57 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 19:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:45:33 dell-Latitude-E6430 kernel: [69078.058706] usb 1-1.2: USB disconnect, device number 5
+Jan 30 19:42:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 19:45:33 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: removing device PixArt USB Optical Mouse
+Jan 30 19:45:33 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "fd" "59"
+Jan 30 19:45:33 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device removed
+Jan 30 19:45:33 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) UnloadModule: "libinput"
+Jan 30 19:45:33 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) systemd-logind: releasing fd for 13:80
+Jan 30 19:47:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 20:12:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 20:17:01 dell-Latitude-E6430 CRON[106998]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 20:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 20:25:21 dell-Latitude-E6430 kernel: [71466.827316] usb 1-1.2: new low-speed USB device number 6 using ehci-pci
+Jan 30 20:25:21 dell-Latitude-E6430 kernel: [71466.940307] usb 1-1.2: New USB device found, idVendor=093a, idProduct=2510, bcdDevice= 1.00
+Jan 30 20:25:21 dell-Latitude-E6430 kernel: [71466.940312] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jan 30 20:25:21 dell-Latitude-E6430 kernel: [71466.940315] usb 1-1.2: Product: USB Optical Mouse
+Jan 30 20:25:21 dell-Latitude-E6430 kernel: [71466.940317] usb 1-1.2: Manufacturer: PixArt
+Jan 30 20:25:21 dell-Latitude-E6430 kernel: [71466.943219] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:093A:2510.0004/input/input20
+Jan 30 20:25:21 dell-Latitude-E6430 kernel: [71466.945676] hid-generic 0003:093A:2510.0004: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:1a.0-1.2/input0
+Jan 30 20:22:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 20:25:21 dell-Latitude-E6430 mtp-probe: checking bus 1, device 6: "/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2"
+Jan 30 20:25:21 dell-Latitude-E6430 mtp-probe: bus: 1, device: 6 was not an MTP device
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse2)
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) No input driver specified, ignoring this device.
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) This device may have been added with another device file.
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event16)
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 64 paused 0
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: always reports core events
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "Device" "/dev/input/event16"
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "_source" "server/udev"
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device is a pointer
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device removed
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:093A:2510.0004/input/input20/event16"
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 14)
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) Option "AccelerationScheme" "none"
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+Jan 30 20:25:21 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+Jan 30 20:25:22 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+Jan 30 20:25:22 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device set to 1000 DPI
+Jan 30 20:25:22 dell-Latitude-E6430 /usr/lib/gdm3/gdm-x-session[1735]: (II) event16 - PixArt USB Optical Mouse: device is a pointer
+Jan 30 20:25:22 dell-Latitude-E6430 mtp-probe: checking bus 1, device 6: "/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2"
+Jan 30 20:25:22 dell-Latitude-E6430 mtp-probe: bus: 1, device: 6 was not an MTP device
+Jan 30 20:27:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 20:30:01 dell-Latitude-E6430 CRON[107205]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 20:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 20:34:43 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 20:34:43 dell-Latitude-E6430 anacron[107269]: Anacron 2.3 started on 2021-01-30
+Jan 30 20:34:43 dell-Latitude-E6430 anacron[107269]: Normal exit (0 jobs run)
+Jan 30 20:34:43 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 20:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 21:12:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 7 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 21:17:01 dell-Latitude-E6430 CRON[107887]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 30 21:17:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 21:27:27 dell-Latitude-E6430 systemd-resolved[398]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Jan 30 21:30:01 dell-Latitude-E6430 CRON[108083]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jan 30 21:30:24 dell-Latitude-E6430 dbus-daemon[476]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.81' (uid=1000 pid=1884 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 30 21:30:24 dell-Latitude-E6430 systemd[1]: Starting Fingerprint Authentication Daemon...
+Jan 30 21:30:24 dell-Latitude-E6430 dbus-daemon[476]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jan 30 21:30:24 dell-Latitude-E6430 systemd[1]: Started Fingerprint Authentication Daemon.
+Jan 30 21:30:25 dell-Latitude-E6430 NetworkManager[477]: <info>  [1612035025.4510] agent-manager: agent[e04afb31c26eccad,:1.81/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jan 30 21:30:26 dell-Latitude-E6430 gnome-shell[1884]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jan 30 21:30:54 dell-Latitude-E6430 systemd[1]: fprintd.service: Succeeded.
+Jan 30 21:32:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Jan 30 21:34:58 dell-Latitude-E6430 systemd[1]: Started Run anacron jobs.
+Jan 30 21:34:58 dell-Latitude-E6430 systemd[1]: anacron.service: Succeeded.
+Jan 30 21:34:58 dell-Latitude-E6430 anacron[108286]: Anacron 2.3 started on 2021-01-30
+Jan 30 21:34:58 dell-Latitude-E6430 anacron[108286]: Normal exit (0 jobs run)
+Jan 30 21:37:27 dell-Latitude-E6430 systemd-resolved[398]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
