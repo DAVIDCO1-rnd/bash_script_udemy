@@ -1,7 +1,8 @@
 #!/bin/bash
 # Recursively search all files with extension .sh in a given folder and for each file, replace all occurances of "bin" with "banana"
 
-directory="/home/dell/Developments/bash_script_udemy/bash_developments/"
+directory=$HOME"/Developments/bash_script_udemy/bash_developments/"
+echo $directory
 sh_files=`find $directory -type f -name "*.txt"`
 # renaming_file='renaming.csv'
 # old_names=`awk -F ',' '{print $1}' $renaming_file$`
