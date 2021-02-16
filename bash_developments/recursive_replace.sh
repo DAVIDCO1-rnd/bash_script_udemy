@@ -5,24 +5,20 @@ directory=$HOME"/Developments/Renaming/"
 files=`find $directory -type f -name "*.txt"`
 renaming_file='renaming.csv'
 let num_of_lines=`awk '{++cnt} END {print cnt}' $renaming_file`-1
-old_names=`awk -F ',' '{print $1,","}' $renaming_file | tail +2`
-new_names=`awk -F ',' '{print $2,","}' $renaming_file | tail +2`
+old_names=`awk -F ',' '{print $1}' $renaming_file | tail +2`
+new_names=`awk -F ',' '{print $2}' $renaming_file | tail +2`
 old_and_new_names=`awk -F ',' '{print $1,",",$2,":"}' $renaming_file | tail +2`
 
-echo $num_of_lines
-echo $old_names
-echo $new_names
-echo $old_and_new_names
-
-bb=`awk ":" '{print $1,"\n"}' $old_and_new_names`
-echo $bb
+arr_old_names=($old_names)
+arr_new_names=($new_names)
 
 for file in $files
 do
-	bb=awk -F ':' '{print $1,"\n"}' $old_and_new_names
-	echo $bb
-	echo $file
-	old_name='david'
-	new_name='norm'
-	sed -i "s:\b$old_name\b:$new_name:g" $file
+	for ((i=0; i<$num_of_lines; i++))
+	do
+		current_old_name=${arr_old_names[i]}
+		current_new_name=${arr_new_names[i]}
+		# awk "{ gsub(/\<$current_old_name\>/, $current_new_name); print }" $file
+		sed -i "s:\b$current_old_name\b:$current_new_name:g" $file
+	done
 done
