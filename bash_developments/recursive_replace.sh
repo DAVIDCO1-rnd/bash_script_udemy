@@ -1,7 +1,7 @@
 #!/bin/bash
 # Recursively search all files with given extension in a given folder. For each file, this script replaces all occurances of strings in the first column in a given csv file and replaces them with the strings in the second column of the same csv file.
 
-directory=$HOME"/Developments/Renaming/DATA_FOLDER/"
+directory="./data_folder/"
 renaming_file='renaming.csv'
 extension="txt"
 num_of_files=`find $directory -type f -name "*."$extension | wc -l`
@@ -22,6 +22,8 @@ do
 		current_old_name=${arr_old_names[j]}
 		current_new_name=${arr_new_names[j]}
 		# awk "{ gsub(/\<$current_old_name\>/, $current_new_name); print }" $current_file
+		set -x
 		sed -i "s:\b$current_old_name\b:$current_new_name:g" $current_file
+		set +x
 	done
 done
